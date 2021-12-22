@@ -14,7 +14,8 @@ module.exports = {
                     'flotiqBlogPost',
                     'flotiqBlogTag',
                 ],
-                downloadMediaFile: true
+                downloadMediaFile: true,
+                timeout: 10000,
             },
         },
         'gatsby-plugin-image',
